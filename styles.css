@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@300&display=swap');
+*{
+    /* outline: 1px dotted black; */
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+/* home section */
+.home{
+    margin: 0 auto;
+    padding: 0 20em;
+    background-color: #1f2937;
+    padding-top: 3em;
+    color: #F9FAF8;
+}
+.home .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home .header h1{
+    font-size: 24px;
+}
+.home ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+ul li, a{
+    text-decoration: none;
+}
+/* hero */
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5em 0;
+}
+.hero .right {
+    width: 50%;
+    flex-shrink: 0;
+}
+.hero .right .img{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 215px;
+}
+.hero .left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hero .left a{
+    padding: 7px 1em;   
+    max-width: 70px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+.left h1{
+    font-size: 48px;
+}
+.left p, a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+/* info section */
+.info-section{
+    margin: auto 0;
+    padding: 3em 20em;
+    background-color: #F9FAF8;
+    text-align: center;
+}
+.info-section h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.section-cards{
+    display: flex;
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card .img{
+    border: blue 2px solid;
+    width: 140px;
+    height: 140px;
+    border-radius: 8%;
+    margin-bottom: 2em;
+}
+
+/* quote section */
+.quote-section{
+    margin: auto 0;
+    padding: 5em 33em;
+    background-color: #E5E7EB;
+    text-align: center;
+}
+.quote-section p{
+    font-size: 36px;
+    color: #1f2937;
+}
+.quote-section h6{
+    font-size: 18px;
+    padding-top: 2em;
+}
+
+/* action */
+.action{
+    margin: auto 0;
+    padding: 5em 33em;
+    background-color: #F9FAF8;
+    color: white;
+}
+
+.sign-up{
+    background-color: #2a36a1;
+    display: flex;
+    padding: 3em 5em;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.sign-up h5{
+    font-size: 30px;
+    font-weight: bold;
+}
+a{
+    border: 1px solid white;
+    padding: 1em 2em;
+}
+
+/* footer */
+footer{
+    margin: auto 0;
+    padding: 3em 33em;
+    text-align: center;
+    color: white;
+    background-color: #1f2937;
+}
